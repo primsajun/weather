@@ -7,7 +7,7 @@ import { Providers } from "@/providers"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Boomi Weather Predection",
+  title: "Bommi Weather Predection",
   description: "Get real-time weather updates and forecasts for any location",
     generator: ''
 }
