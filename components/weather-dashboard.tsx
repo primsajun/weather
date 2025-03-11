@@ -86,7 +86,7 @@ export default function WeatherDashboard() {
           fetchWeatherByCoords(latitude, longitude)
         },
         (err) => {
-          console.error("Geolocation error:", err.code, err.message)
+          // console.error("Geolocation error:", err.code, err.message)
           let errorMessage = "Unable to get your location. Please search for a city."
           switch(err.code) {
             case 1:

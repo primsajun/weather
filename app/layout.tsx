@@ -7,9 +7,9 @@ import { Providers } from "@/providers"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Weatherly - Weather Forecast App",
+  title: "Boomi Weather Predection",
   description: "Get real-time weather updates and forecasts for any location",
-    generator: 'v0.dev'
+    generator: ''
 }
 
 export default function RootLayout({
