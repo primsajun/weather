@@ -102,13 +102,13 @@ export default function WeatherDashboard() {
           setError(errorMessage)
           setLoading(false)
           // Default to a major city if geolocation fails
-          fetchWeatherByCity("London")
+          fetchWeatherByCity("Kanniyakumari")
         },
       )
     } else {
       setError("Geolocation is not supported by your browser. Please search for a city.")
       // Default to a major city if geolocation is not supported
-      fetchWeatherByCity("London")
+      fetchWeatherByCity("Kanniyakumari")
     }
   }, [])
 
